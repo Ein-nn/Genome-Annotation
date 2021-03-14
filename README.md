@@ -15,15 +15,6 @@
 1、封装模块
 1.1、接入“序列提取”模块
 感谢『罗晓琦』同学提供的“提取序列”R语言脚本，现使用python调用
-尝试使用python通过cmd调用R，编写bat文件测试
-echo hello
-R
-source("test.R")
-t(1,1)
-q()
-pause
-echo hello world
-pause
 
 1.2、接入“判断预测结果完整性”模块
 由于FilterGFF3.py已被封装完毕，只需导入模块并实例化对象，即可使用
